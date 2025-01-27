@@ -1,0 +1,22 @@
+<?
+$db->query("DELETE FROM users WHERE id != 1    ");
+$db->clear("auth");
+$db->clear("chats");
+$db->clear("chat_messages");
+$db->clear("copy_traders");
+$db->clear("indicators_user");
+$db->clear("invest");
+$db->clear("lots");
+$db->clear("lots_history");
+$db->clear("payin");
+$db->clear("referals");
+$db->clear("payin_log");
+$db->clear("currency_fav");
+$db->clear("partner_stat");
+$db->clear("partner_pay");
+$db->clear("partner_traders");
+$db->clear("partner_clicks_ip");
+$db->clear("payout");
+$db->clear("stat");
+$db->clear("stats");
+$db->clear("tabs");

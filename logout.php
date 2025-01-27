@@ -1,0 +1,3 @@
+<?
+$core->logout();
+$core->redir("../");
